@@ -1,5 +1,5 @@
 {
-  "defaultSeverity": "error",
+  "defaultSeverity": "warning",
   "extends": ["tslint-config-standard", "tslint-eslint-rules", "tslint-config-prettier"],
   "jsRules": {},
   "rules": {
@@ -15,7 +15,13 @@
     "only-arrow-functions": [true, "allow-declarations", "allow-named-functions"],
     "ban": [true, { "name": ["*", "forEach"], "message": "Use a regular for...of loop instead" }],
     "member-access": true,
-    "member-ordering": [true, { "order": ["public-static-field"] }]
+    "member-ordering": [true, { "order": ["public-static-field"] }],
+    "no-console": true,
+    "no-duplicate-variable": true,
+    "no-floating-promises": true,
+    "no-return-await": true,
+    "class-name": true,
+    "interface-name": [true, "always-prefix"]
   },
   "rulesDirectory": []
 }
