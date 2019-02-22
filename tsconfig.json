@@ -11,7 +11,13 @@
     "module": "commonjs",
     "lib": ["dom", "es2017"],
     "outDir": "dist",
-    "moduleResolution": "node"
+    "moduleResolution": "node",
+    "plugins": [
+      {
+        "name": "typescript-tslint-plugin",
+        "suppressWhileTypeErrorsPresent": true
+      }
+    ]
   },
   "exclude": ["node_modules"]
 }

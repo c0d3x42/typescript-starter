@@ -15,6 +15,10 @@
     "@types/typescript": "^2.0.0",
     "eslint": "^5.14.1",
     "tslint": "^5.12.1",
-    "typescript": "^3.3.3333"
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-config-standard": "^8.0.1",
+    "tslint-eslint-rules": "^5.4.0",
+    "typescript": "^3.3.3333",
+    "typescript-tslint-plugin": "^0.3.1"
   }
 }

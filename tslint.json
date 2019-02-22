@@ -1,0 +1,21 @@
+{
+  "defaultSeverity": "error",
+  "extends": ["tslint-config-standard", "tslint-eslint-rules", "tslint-config-prettier"],
+  "jsRules": {},
+  "rules": {
+    "max-line-length": {
+      "options": [128]
+    },
+    "semicolon": [true, "always"],
+    "space-before-function-paren": [true, { "asyncArrow": "always" }],
+    "variable-name": [true, "allow-snake-case"],
+    "typedef": [true, "call-signature", "parameter"],
+    "prefer-for-of": true,
+    "curly": true,
+    "only-arrow-functions": [true, "allow-declarations", "allow-named-functions"],
+    "ban": [true, { "name": ["*", "forEach"], "message": "Use a regular for...of loop instead" }],
+    "member-access": true,
+    "member-ordering": [true, { "order": ["public-static-field"] }]
+  },
+  "rulesDirectory": []
+}
